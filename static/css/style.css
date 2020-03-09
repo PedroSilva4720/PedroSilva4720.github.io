@@ -1,5 +1,5 @@
 /* azul: #a3dadd
-   dour: #423824 */
+dour: #423824 */
 
 * {
     max-height: 100%;
@@ -44,7 +44,7 @@ header {
     display: flex;
     margin: auto;
     align-items: center;
-    width: 90%;
+    width: 95%;
 }
 
 .header-logo,
@@ -124,6 +124,7 @@ nav {
 .topo-4,
 .topo-5,
 .topo-6 {
+    padding-top: 10px;
     position: relative;
     margin-bottom: 100px;
     text-align: center;
@@ -184,6 +185,8 @@ nav {
 .ft6 img,
 .ft7 img,
 .ft8 img {
+    max-width: 100%;
+    max-height: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -295,8 +298,8 @@ nav {
 .fotos4 img,
 .fotos5 img {
     margin: 2px;
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 
