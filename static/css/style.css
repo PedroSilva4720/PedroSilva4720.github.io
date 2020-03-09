@@ -84,10 +84,6 @@ nav {
     position: relative;
 }
 
-.topo-5 {
-    margin: 20px;
-}
-
 .topo-6 {
     padding: 5%;
     border-radius: 10%;
@@ -139,6 +135,11 @@ nav {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+}
+
+.topo5ft img {
+    height: 100px;
+    max-width: 100px;
 }
 
 .imgtopo5 {
