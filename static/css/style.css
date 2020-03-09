@@ -1,0 +1,309 @@
+/* azul: #a3dadd
+dour: #423824 */
+
+* {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: #423824;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 39px;
+    padding-bottom: 30px;
+    font-family: 'Spartan', sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+}
+
+.header-logo,
+.nav-links,
+.top5,
+.topo5-txt,
+.sobre-txt,
+.fotos1,
+.fotos2,
+.fotos3,
+.fotos4,
+.fotos5 {
+    display: flex;
+}
+
+.header-logo {
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: #423824;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.topo-1 {
+    text-align: right;
+    position: relative;
+}
+
+.topo-5 {
+    margin: 20px;
+}
+
+.topo-6 {
+    padding: 5%;
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+    border: solid 2px #423824;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.topo-1 img {
+    filter: grayscale(70%);
+    /* object-fit: cover; */
+}
+
+.topo-title {
+    background-color: rgba(163, 218, 221, 0.65);
+    position: absolute;
+    top: 30%;
+    right: 0%;
+}
+
+.topo-title h1 {
+    margin: 30px;
+    text-align: right;
+    font-size: 50px;
+}
+
+.topo-1,
+.topo-2,
+.topo-3,
+.topo-4,
+.topo-5,
+.topo-6 {
+    position: relative;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.topo5-txt {
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.topo5ft {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.imgtopo5 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fotos-ig1,
+.fotos-ig2 {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: -7px;
+    /* justify-content: center; */
+}
+
+.fotos-ig1 img,
+.fotos-ig2 img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.ft1,
+.ft2,
+.ft3,
+.ft4,
+.ft5,
+.ft6,
+.ft7,
+.ft8 {
+    overflow: hidden;
+}
+
+.ig-txt {
+    margin-bottom: 20px;
+}
+
+.ft1 img,
+.ft2 img,
+.ft3 img,
+.ft4 img,
+.ft5 img,
+.ft6 img,
+.ft7 img,
+.ft8 img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.ft1:hover img,
+.ft2:hover img,
+.ft3:hover img,
+.ft4:hover img,
+.ft5:hover img,
+.ft6:hover img,
+.ft7:hover img,
+.ft8:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.topo-6 p,
+.ps {
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+
+.topo-6 h2 {
+    padding-bottom: 0px;
+}
+
+.link-contato1,
+.link-contato2,
+.link-contato3,
+.ps {
+    text-decoration: none;
+}
+
+.link-contato1:hover p,
+.link-contato2:hover p,
+.link-contato3:hover p,
+.ps:hover {
+    color: #423824;
+}
+
+.footer-items {
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #b6cbcc;
+}
+
+.footer-items p {
+    color: black;
+}
+
+.topo4-itens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.serv-casamentos,
+.serv-miniwedding,
+.serv-comemoracoes {
+    width: 25%;
+    text-align: center;
+    padding: 25px;
+}
+
+.serv-casamentos h3,
+.serv-miniwedding h3,
+.serv-comemoracoes h3 {
+    margin: 0px;
+}
+
+.serv-casamentos img,
+.serv-miniwedding img,
+.serv-comemoracoes img {
+    border-radius: 10%;
+}
+
+.decoradora,
+.empresa {
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.img-sobre img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.img-sobre {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotos1 img,
+.fotos2 img,
+.fotos3 img,
+.fotos4 img,
+.fotos5 img {
+    margin: 2px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.fotos1,
+.fotos2,
+.fotos3,
+.fotos4,
+.fotos5 {
+    justify-content: center;
+}
