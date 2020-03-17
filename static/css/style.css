@@ -56,7 +56,8 @@ header {
 .fotos2,
 .fotos3,
 .fotos4,
-.fotos5 {
+.fotos5,
+.topo4ft {
     display: flex;
 }
 
@@ -79,6 +80,10 @@ nav {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    background-color: #a3dadd;
+}
+
 .topo-1 {
     text-align: right;
     position: relative;
@@ -97,14 +102,14 @@ nav {
 }
 
 .topo-1 img {
-    filter: grayscale(70%);
+    filter: grayscale(25%);
     /* object-fit: cover; */
 }
 
 .topo-title {
     background-color: rgba(163, 218, 221, 0.65);
     position: absolute;
-    top: 30%;
+    top: 40%;
     right: 0%;
 }
 
@@ -265,10 +270,9 @@ nav {
     margin: 0px;
 }
 
-.serv-casamentos img,
-.serv-miniwedding img,
-.serv-comemoracoes img {
+.topo4ft img {
     border-radius: 10%;
+    margin: auto;
 }
 
 .decoradora,
