@@ -14,6 +14,9 @@
     <link rel="shortcut icon" href="static/img/redondo.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +36,7 @@
             </ul>
         </nav>
     </header>
-    <section name="topo-1">
+    <section id="section-1" data-aos="fade-up" data-aos-duration="1500">
         <div class="topo-1" id="topo-1">
             <img src="static/img/bg.jpeg" alt="foto-fundo">
             <div class="topo-title">
@@ -43,7 +46,7 @@
             </div>
         </div>
     </section>
-    <section name="topo-2">
+    <section id="section-2" data-aos="fade-down" data-aos-duration="1500">
         <div class="topo-2" id="topo-2">
             <h2 class="h2-topo-2">Sobre</h2>
             <div class="sobre-txt">
@@ -63,7 +66,7 @@
             </div>
         </div>
     </section>
-    <section name="topo-3">
+    <section id="section-3" data-aos="fade-right" data-aos-duration="1500">
         <div class="topo-3" id="topo-3">
             <h2>Fotos</h2>
             <div class="fotos1">
@@ -93,7 +96,7 @@
             </div>
         </div>
     </section>
-    <section name="topo-4">
+    <section id="section-4" data-aos="fade-down" data-aos-duration="1500">
         <div class="topo-4" id="topo-4">
             <h2>Serviços</h2>
             <div class="topo4-itens">
@@ -119,7 +122,7 @@
             </div>
         </div>
     </section>
-    <section name="topo-5">
+    <section id="section-5" data-aos="fade-right" data-aos-duration="1500">
         <div class="topo-5" id="topo-5">
             <div class="topo5-txt">
                 <h2 class="ig-txt">Instagram</h2>
@@ -161,8 +164,7 @@
             </div>
         </div>
     </section>
-
-    <section name="topo-6">
+    <section id="section-6" data-aos="zoom-in" data-aos-duration="1500">
         <div class="topo-6" id="topo-6">
             <h2>Contatos</h2>
             <a href="mailto:contato@socorrotorresdecor.com.br" class="link-contato1">
@@ -177,10 +179,15 @@
             <a href='https://www.casamentos.com.br/decoracao-casamento/socorro-torres-decor--e142006'><img alt='logo-casamentos.com.br' src='https://www.casamentos.com.br/images/sellos/partner--gg142006.png' style='border-width:0px;' /></a><br>
         </div>
     </section>
-    <footer class="footer-div">
+    <footer id="footer-div">
         <div class="footer-items">
             <img src="static/img/logo-s-fundo.png" alt="logo-empresa" height="70px">
             <p>© 2020. Todos os direitos reservados. Site feito por <a href="https://www.instagram.com/pedrosilva4720/" class="ps">Pedro Silva</a></p>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+            </script>
+            <script>
+                AOS.init();
+            </script>
         </div>
     </footer>
 </body>

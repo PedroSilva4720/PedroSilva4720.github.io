@@ -317,3 +317,12 @@ nav {
 .fotos5 {
     justify-content: center;
 }
+
+.opacidade0 {
+    opacity: 0;
+    transition: 1s;
+}
+
+.opacidade1 {
+    opacity: 1 !important;
+}
